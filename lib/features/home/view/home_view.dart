@@ -66,6 +66,11 @@ class _HomeViewState extends State<HomeView> {
       },
     );
   }
+      //  onPressed: () {
+      //                 // Update the last seen notification
+      //                 BlocProvider.of<NotificationCubit>(context)
+      //                     .updateTimestampOfLastSeenNotification();
+      //               },
 
   Widget _bodyListView() {
     return BlocConsumer<HomeCubit, HomeState>(

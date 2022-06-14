@@ -42,6 +42,14 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
-	<false/>
+	<true/>
+			<key>NSPhotoLibraryUsageDescription</key>
+		<string>kys needs to access photo library to select files.</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>Store needs to access your location to display posts around you.</string>
+		<key>NSCameraUsageDescription</key>
+		<string>Camera access required to take videos.</string>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Mic access required to take videos with sound.</string>
 </dict>
 </plist>
